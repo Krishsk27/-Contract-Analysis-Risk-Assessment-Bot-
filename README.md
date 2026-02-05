@@ -16,7 +16,7 @@ ContractSentinel is an intelligent legal assistant that automates the review of 
 
 ## 📸 Dashboard Preview
 
-*(Place a screenshot of your main dashboard here)*
+
 ![Dashboard Screenshot](assets/1.png)
 ![Dashboard Screenshot](assets/2.png)
 ![Dashboard Screenshot](assets/3.png)
