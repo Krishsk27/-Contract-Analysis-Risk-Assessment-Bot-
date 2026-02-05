@@ -17,9 +17,14 @@ ContractSentinel is an intelligent legal assistant that automates the review of 
 ## 📸 Dashboard Preview
 
 *(Place a screenshot of your main dashboard here)*
-![Dashboard Screenshot](assets/dashboard_preview.png)
+![Dashboard Screenshot](assets/1.png)
+![Dashboard Screenshot](assets/2.png)
+![Dashboard Screenshot](assets/3.png)
+![Dashboard Screenshot](assets/4.png)
+![Dashboard Screenshot](assets/5.png)
+![Dashboard Screenshot](assets/6.png)
 
----
+--
 
 ## 🚀 Key Features
 
@@ -60,6 +65,41 @@ ContractSentinel is an intelligent legal assistant that automates the review of 
 2.  **Ollama** installed (if running locally).
 
 ### 1. Clone the Repository
-```bash
 git clone [https://github.com/yourusername/contract-sentinel.git](https://github.com/yourusername/contract-sentinel.git)
 cd contract-sentinel
+
+### 2. Create Virtual Environment
+
+python -m venv venv
+# Windows
+venv\Scripts\activate
+# Mac/Linux
+source venv/bin/activate
+
+3. Install Dependencies
+pip install -r requirements.txt
+
+4. Setup AI Engine
+Option A: Local (Privacy Focused)
+Download Ollama.
+Run the model: ollama run llama3
+
+▶️ Usage
+Run the application: streamlit run app.py
+Open your browser to http://localhost:8501.
+Upload a PDF or DOCX contract.
+Click "Start Audit".
+View the Visual Analysis and download the PDF Report.
+
+📂 Project Structure
+contract-sentinel/
+├── app.py                  # Main Streamlit Application (Frontend)
+├── requirements.txt        # Python Dependencies
+├── src/
+│   ├── __init__.py
+│   ├── document_processor.py   # PDF/DOCX Text Extraction
+│   ├── llm_engine.py           # AI Logic (Ollama/Gemini)
+│   ├── report_generator.py     # PDF Export Logic
+│   ├── audit_logger.py         # Activity Logging
+│   └── utils.py                # Helper functions (Highlighting)
+└── assets/                 # Screenshots and Logos
