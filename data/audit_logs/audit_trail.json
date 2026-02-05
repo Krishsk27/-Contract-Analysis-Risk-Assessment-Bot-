@@ -1,0 +1,14 @@
+{"timestamp": "2026-02-03T19:12:06.079422", "event_type": "CONTRACT_ANALYSIS", "filename": "safe_nda.txt", "risk_score": 60, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-03T19:15:17.961664", "event_type": "CONTRACT_ANALYSIS", "filename": "doc1.txt", "risk_score": 70, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-03T19:34:56.401436", "event_type": "CONTRACT_ANALYSIS", "filename": "doc1.txt", "risk_score": 70, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-03T19:46:47.862453", "event_type": "CONTRACT_ANALYSIS", "filename": "doc1.txt", "risk_score": 60, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-03T19:53:22.184103", "event_type": "CONTRACT_ANALYSIS", "filename": "safe_nda.txt", "risk_score": 50, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-03T20:29:45.685553", "event_type": "CONTRACT_ANALYSIS", "filename": "safe_nda.txt", "risk_score": 60, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-04T00:44:30.241468", "event_type": "ANALYSIS", "filename": "doc1.txt", "risk_score": 80, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-04T01:10:56.970462", "event_type": "ANALYSIS", "filename": "safe_nda.txt", "risk_score": 60, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-04T02:44:51.606143", "event_type": "ANALYSIS", "filename": "doc1.txt", "risk_score": 80, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-05T11:46:30.924133", "event_type": "ANALYSIS", "filename": "doc1.txt", "risk_score": 80, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-05T11:55:46.001759", "event_type": "ANALYSIS", "filename": "doc1.txt", "risk_score": 80, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-05T12:00:57.275691", "event_type": "ANALYSIS", "filename": "doc1.txt", "risk_score": 80, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-05T12:08:06.269085", "event_type": "ANALYSIS", "filename": "doc1.txt", "risk_score": 80, "status": "Success", "metadata": {}}
+{"timestamp": "2026-02-05T12:14:16.975537", "event_type": "ANALYSIS", "filename": "doc1.txt", "risk_score": 80, "status": "Success", "metadata": {}}
