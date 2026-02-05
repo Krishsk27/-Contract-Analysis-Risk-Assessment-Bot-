@@ -91,15 +91,4 @@ Upload a PDF or DOCX contract.
 Click "Start Audit".
 View the Visual Analysis and download the PDF Report.
 
-📂 Project Structure
-contract-sentinel/
-├── app.py                  # Main Streamlit Application (Frontend)
-├── requirements.txt        # Python Dependencies
-├── src/
-│   ├── __init__.py
-│   ├── document_processor.py   # PDF/DOCX Text Extraction
-│   ├── llm_engine.py           # AI Logic (Ollama/Gemini)
-│   ├── report_generator.py     # PDF Export Logic
-│   ├── audit_logger.py         # Activity Logging
-│   └── utils.py                # Helper functions (Highlighting)
-└── assets/                 # Screenshots and Logos
+
